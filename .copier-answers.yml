@@ -1,0 +1,18 @@
+# Changes here will be overwritten by Copier
+_commit: 98d9491
+_src_path: https://github.com/Cambridge-ICCS/green-ci.git
+build_docs_timeout: 15
+build_sys_file_paths:
+- '**/Makefile'
+carbon_aware: true
+deploy_docs: true
+docs_file_paths:
+- '**/*.md'
+joss_render_timeout: 5
+joss_upload_timeout: 5
+requirements_file_paths:
+- requirements.txt
+source_file_paths:
+- '**/*.py'
+static_analysis_timeout: 12
+test_suite_timeout: 9
